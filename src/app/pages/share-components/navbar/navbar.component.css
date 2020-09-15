@@ -1,0 +1,95 @@
+.navbar-cofune{
+    background-color: #5E85D0;
+    height: 161px;
+}
+.title{
+    position: absolute;
+width: 318px;
+height: 58px;
+left: 185px;
+top: 54px;
+
+font-family: Yinmar;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 45px;
+display: flex;
+align-items: center;
+letter-spacing: -0.105em;
+text-transform: capitalize;
+
+color: #EBF8F9;
+}
+.experience{
+    position: absolute;
+width: 171px;
+height: 100px;
+left: 788px;
+top: 60px;
+
+font-family: Yinmar;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 45px;
+letter-spacing: -0.105em;
+
+color: #FFFFFF;
+}
+.experience2{
+    position: absolute;
+    width: 214px;
+    height: 42px;
+    left: 1006px;
+    top: 60px;
+    
+    font-family: Yinmar;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -0.105em;
+    
+    color: #FFFFFF;
+}
+.getIn{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    color: white;
+    left: 1245px;
+    top: 31px;
+    background: #FB9C0E;
+    border-radius: 14px;
+}
+.ingresar{
+    position: absolute;
+    width: 83px;
+    height: 20px;
+    left: 1253px;
+    top: 92px;
+    font-family: Yinmar;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.105em;
+    color: #FFFFFF;
+}
+
+.cTitle{
+    position: absolute;
+    width: 48px;
+    height: 60px;
+    left: 99px;
+    top: 40px;
+
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 72px;
+
+color: #EBF8F9;
+}

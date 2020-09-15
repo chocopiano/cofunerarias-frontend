@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "cofunerarias"
+    }
+  },
+  "defaultProject": "cofunerarias",
+  "cli": {
+    "analytics": "910103f4-dee8-4575-b354-220e2b9edcc8"
+  }
 }
