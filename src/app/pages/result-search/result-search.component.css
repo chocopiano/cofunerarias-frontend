@@ -1,0 +1,38 @@
+.order {
+    font-family: Yinmar;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.105em;
+    text-transform: capitalize;
+    color: #3671D8;
+    margin-top: 10px;
+}
+
+.input1 {
+    /* position: absolute; */
+    width: 200px;
+    height: 29px;
+    /* left: 601px;
+    top: 411px; */
+    padding-left: 20px;
+    background: #E6E5E9;
+    border-radius: 42px;
+}
+
+.button1 {
+    margin-top: 10px;
+    background: #FB9C0E;
+    border-radius: 42px;
+    font-family: Ruluko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 50px
+}

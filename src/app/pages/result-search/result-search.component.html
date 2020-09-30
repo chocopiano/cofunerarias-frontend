@@ -1,0 +1,40 @@
+<form (ngSubmit)="search(forma)" #forma="ngForm">
+    <div>
+        <div class="col">
+            <div class="row">
+                <p class="order">Ordenar por <i class="fa fa-filter"></i></p>
+            </div>
+            <div class="row">
+                <select class="selectpicker" title="Seleccionar">
+                <option>Mayor Precio</option>
+                <option>Menor Precio</option>
+                <option>Mejor Puntuación</option>
+              </select>
+            </div>
+            <div class="row">
+                <p class="order">Filtrar por <i class="fa fa-filter"></i>
+            </div>
+            <div class="row">
+                <select class="selectpicker" title="Seleccionar" multiple>
+                <option>Urna</option>
+                <option>Flores</option>
+                <option>Cafeteria</option>
+              </select>
+            </div>
+            <div class="row">
+                <p class="order">Buscar Otro Sector...</p>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input class="input1" type="text" name="place" ngModel placeholder="Ingresar comuna" required>
+                    <h6 *ngIf="!valid">Ingrese una comuna</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button type="submit" class="btn button1">Buscar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
