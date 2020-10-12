@@ -1,51 +1,54 @@
 .general-search {
-    position: absolute;
-    width: 348px;
-    height: 180px;
-    left: 546px;
-    top: 313px;
-    background: #FFFFFF;
-    border-radius: 42px;
-    /* padding-left: 300px */
+  position: absolute;
+  width: 348px;
+  height: 180px;
+  left: 40%;
+  top: 313px;
+  background: #ffffff;
+  border-radius: 42px;
+  /* padding-left: 300px */
 }
 
 .title {
-    /* position: absolute; */
-    width: 557px;
-    height: 61px;
-    font-family: Yinmar;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 28px;
-    line-height: 35px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.105em;
-    color: #5E85D0;
-    padding-left: 90px
+  /* position: absolute; */
+  width: 557px;
+  height: 61px;
+  font-family: Yinmar;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.105em;
+  color: #5e85d0;
+  padding-left: 90px;
 }
 
 .input1 {
-    /* position: absolute; */
-    width: 200px;
-    height: 29px;
-    /* left: 601px;
+  /* position: absolute; */
+  width: 200px;
+  height: 29px;
+  /* left: 601px;
     top: 411px; */
-    padding-left: 20px;
-    background: #E6E5E9;
-    border-radius: 42px;
+  padding-left: 20px;
+  background: #e6e5e9;
+  border-radius: 42px;
 }
 
 .button1 {
-    margin-top: 10px;
-    background: #FB9C0E;
-    border-radius: 42px;
-    font-family: Ruluko;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    color: #FFFFFF;
+  margin-top: 10px;
+  background: #fb9c0e;
+  border-radius: 42px;
+  font-family: Ruluko;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+h4 {
+  color: rgb(255, 0, 13);
 }

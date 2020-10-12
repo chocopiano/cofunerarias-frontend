@@ -1,40 +1,124 @@
 <form (ngSubmit)="search(forma)" #forma="ngForm">
-    <div>
-        <div class="col">
-            <div class="row">
-                <p class="order">Ordenar por <i class="fa fa-filter"></i></p>
-            </div>
-            <div class="row">
-                <select class="selectpicker" title="Seleccionar">
-                <option>Mayor Precio</option>
-                <option>Menor Precio</option>
-                <option>Mejor Puntuación</option>
-              </select>
-            </div>
-            <div class="row">
-                <p class="order">Filtrar por <i class="fa fa-filter"></i>
-            </div>
-            <div class="row">
-                <select class="selectpicker" title="Seleccionar" multiple>
-                <option>Urna</option>
-                <option>Flores</option>
-                <option>Cafeteria</option>
-              </select>
-            </div>
-            <div class="row">
-                <p class="order">Buscar Otro Sector...</p>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <input class="input1" type="text" name="place" ngModel placeholder="Ingresar comuna" required>
-                    <h6 *ngIf="!valid">Ingrese una comuna</h6>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <button type="submit" class="btn button1">Buscar</button>
-                </div>
-            </div>
+  <div>
+    <div class="row">
+      <div class="col-2 menu">
+        <div class="row">
+          <p class="order">Ordenar por <i class="fa fa-filter"></i></p>
         </div>
+        <div class="row">
+          <select class="selectpicker" title="Seleccionar">
+            <option>Mayor Precio</option>
+            <option>Menor Precio</option>
+            <option>Mejor Puntuación</option>
+          </select>
+        </div>
+        <div class="row">
+          <p class="order">Filtrar por <i class="fa fa-filter"></i></p>
+        </div>
+
+        <div class="row">
+          <select class="selectpicker" title="Seleccionar" multiple>
+            <option>Urna</option>
+            <option>Flores</option>
+            <option>Cafeteria</option>
+          </select>
+        </div>
+        <div class="row">
+          <p class="order">Buscar Otro Sector...</p>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input
+              class="input1"
+              type="text"
+              name="place"
+              ngModel
+              placeholder="Ingresar comuna"
+              required
+            />
+            <h4 *ngIf="!valid">Ingrese una comuna</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <button type="submit" class="btn button1">Buscar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-8">
+        <div class="row principal-square">
+          <div class="first-info">
+            <div class="picture-container">
+              <div class="picture-div">
+                <div>
+                  <img
+                    class="picture"
+                    src="../../../assets/img/mayron-oliveira-mibn6LLm9kA-unsplash.jpg"
+                  />
+                </div>
+              </div>
+              <div class="picture-div-inf">
+                <div class="picture-info">
+                  <p class="extra-icons"><i class="fas fa-church"></i></p>
+                  <p class="extra-icons">
+                    <i class="fab fa-pagelines"></i>
+                  </p>
+                  <p class="extra-icons"><i class="fas fa-parking"></i></p>
+                  <p class="extra-icons"><i class="fas fa-stethoscope"></i></p>
+                  <p class="extra-icons">&nbsp;<i class="fas fa-info"></i></p>
+                </div>
+              </div>
+              <div class="picture-div-inf">
+                <div class="picture-info">
+                  <p class="extra-icons"><i class="fas fa-restroom"></i></p>
+                  <p class="extra-icons"><i class="fas fa-car"></i></p>
+                  <p class="extra-icons"><i class="fas fa-coffee"></i></p>
+                  <p class="extra-icons"><i class="fas fa-id-card"></i></p>
+                  <p class="extra-icons"><i class="far fa-newspaper"></i></p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <p class="text-information">
+                Funeraria El Recuerdo
+              </p>
+              <p class="text-direction">
+                <i class="fa fa-map-pin"></i>
+                Av. Borgoño Macul
+              </p>
+              <p class="text-information">
+                <i class="fa fa-star"></i><i class="fa fa-star"></i
+                ><i class="fa fa-star"></i><i class="fas fa-star-half-alt"></i
+                ><i class="far fa-star"></i> &nbsp; &nbsp; $740.000
+              </p>
+              <div class="social-network">
+                <p class="heart"><i class="fas fa-heart"></i></p>
+                <p class="heart-number">220 &nbsp;</p>
+                <p class="heart-number">
+                  &nbsp;&nbsp;<i class="fas fa-comment-alt"></i>
+                </p>
+                <p class="heart-number">&nbsp;&nbsp;220</p>
+                <p class="heart-number">
+                  &nbsp;&nbsp;<i class="fas fa-share-alt"></i>
+                </p>
+                <p class="heart-number">&nbsp;&nbsp;220</p>
+              </div>
+            </div>
+          </div>
+          <div class="second-info">
+            <p class="fast-description">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book has been the
+              industry's standard dummy text ever since the 1500s, when an
+              unknown printer took a galley of type and scrambled it to make a
+              type specimen book
+            </p>
+          </div>
+        </div>
+        <app-resume-table></app-resume-table>
+      </div>
     </div>
+  </div>
 </form>

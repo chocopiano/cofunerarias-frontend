@@ -1,38 +1,150 @@
 .order {
-    font-family: Yinmar;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 45px;
-    display: flex;
-    align-items: center;
-    letter-spacing: -0.105em;
-    text-transform: capitalize;
-    color: #3671D8;
-    margin-top: 10px;
+  font-family: Yinmar;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.105em;
+  text-transform: capitalize;
+  color: #3671d8;
+  margin-top: 10px;
 }
 
 .input1 {
-    /* position: absolute; */
-    width: 200px;
-    height: 29px;
-    /* left: 601px;
+  /* position: absolute; */
+  width: 200px;
+  height: 29px;
+  /* left: 601px;
     top: 411px; */
-    padding-left: 20px;
-    background: #E6E5E9;
-    border-radius: 42px;
+  padding-left: 20px;
+  background: #e6e5e9;
+  border-radius: 42px;
 }
 
 .button1 {
-    margin-top: 10px;
-    background: #FB9C0E;
-    border-radius: 42px;
-    font-family: Ruluko;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    color: #FFFFFF;
-    margin-left: 50px
+  margin-top: 10px;
+  background: #fb9c0e;
+  border-radius: 42px;
+  font-family: Ruluko;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 50px;
+}
+
+.principal-square {
+  width: 849px;
+  height: 428px;
+  display: flex;
+  background: #5e85d0;
+  border-radius: 20px;
+}
+.first-info {
+  flex-basis: 60%;
+}
+.second-info {
+  flex-basis: 40%;
+}
+.menu {
+  margin-left: 50px;
+}
+.picture-container {
+  display: flex;
+}
+.picture-div {
+  flex-basis: 60%;
+}
+.picture {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  /* background: red; */
+  background: "../../../assets/img/mayron-oliveira-mibn6LLm9kA-unsplash.jpg";
+  border-radius: 660px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.picture-div-inf {
+  flex-basis: 20%;
+}
+.picture-info {
+  position: relative;
+  width: 34px;
+  height: 181px;
+  margin-top: 30px;
+  background: #fdfdfd;
+  border-radius: 20px;
+  padding-top: 1px;
+}
+.text-information {
+  color: white;
+  font-family: Mulish;
+  font-weight: bold;
+  font-size: 32px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.text-direction {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 20px;
+  color: white;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.social-network {
+  display: flex;
+}
+.heart {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ff6079;
+  margin-left: 30px;
+  margin-top: 5px;
+  flex-basis: 5%;
+}
+.heart-number {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  flex-basis: 5%;
+  margin-top: 5px;
+  color: #ffffff;
+}
+.extra-icons {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 20px;
+  flex-basis: 5%;
+  margin-top: 5px;
+  color: #3671d8;
+  margin-left: 2px;
+}
+.fast-description {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 20px;
+  margin-top: 15px;
+  color: #ffffff;
+  letter-spacing: 0.1em;
+}
+h4 {
+  color: rgb(255, 0, 13);
 }

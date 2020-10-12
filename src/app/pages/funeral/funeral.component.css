@@ -1,0 +1,36 @@
+.order {
+  font-family: Yinmar;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.105em;
+  text-transform: capitalize;
+  color: #3671d8;
+  margin-top: 10px;
+}
+
+.menu {
+  margin-left: 50px;
+}
+
+.orange-button {
+  background: #fb9c0e;
+  font-family: Yinmar;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 45px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.105em;
+  text-transform: capitalize;
+  width: 70%;
+  color: white;
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}

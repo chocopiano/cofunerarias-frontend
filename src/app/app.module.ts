@@ -8,6 +8,9 @@ import { HomeComponent } from './pages/home/home.component';
 import { GeneralSearchComponent } from './pages/general-search/general-search.component';
 import { ResultSearchComponent } from './pages/result-search/result-search.component';
 import { MenuSearchComponent } from './pages/menu-search/menu-search.component';
+import { ResumeTableComponent } from './pages/resume-table/resume-table.component';
+import { FuneralComponent } from './pages/funeral/funeral.component';
+import { PhotosComponent } from './pages/description/photos/photos.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { MenuSearchComponent } from './pages/menu-search/menu-search.component';
     HomeComponent,
     GeneralSearchComponent,
     ResultSearchComponent,
-    MenuSearchComponent
+    MenuSearchComponent,
+    ResumeTableComponent,
+    FuneralComponent,
+    PhotosComponent
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-general-search',
@@ -9,16 +10,15 @@ import { NgForm } from '@angular/forms';
 export class GeneralSearchComponent implements OnInit {
   valid = true;
 
-  constructor() { }
+  constructor(private router: Router) {}
 
-  ngOnInit(): void {
+  ngOnInit(): void {}
+  search(forma: NgForm): any {
+    if (!forma.valid) {
+      this.valid = false;
+      return;
+    }
+    // console.log(forma.value.place);
+    this.router.navigate(['/search-result', forma.value.place]);
   }
-  search(forma: NgForm){
-  if (!forma.valid){
-    this.valid = false;
-    return;
-  }
-  console.log(forma.value.place)
-  }
-
 }

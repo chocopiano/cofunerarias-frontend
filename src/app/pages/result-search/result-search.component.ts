@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-result-search',
@@ -9,16 +10,14 @@ import { NgForm } from '@angular/forms';
 export class ResultSearchComponent implements OnInit {
   valid = true;
 
-  constructor() { }
+  constructor(private router: ActivatedRoute) {}
 
-  ngOnInit(): void {
-  }
-  search(forma: NgForm){
-    if (!forma.valid){
+  ngOnInit(): void {}
+  search(forma: NgForm) {
+    if (!forma.valid) {
       this.valid = false;
       return;
     }
     console.log(forma.value.place);
-    }
-
+  }
 }

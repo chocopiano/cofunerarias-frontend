@@ -1,23 +1,30 @@
 <form (ngSubmit)="search(forma)" #forma="ngForm">
-    <div class="general-search">
-        <div class="row">
-            <div class="col">
-                <p class="title">Ingrese su comuna</p>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-2"></div>
-            <div class="col-10">
-                <input class="input1" type="text" name="place" ngModel placeholder="Ingresar comuna" required>
-                <h6 *ngIf="!valid">Ingrese una comuna</h6>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-4"></div>
-            <div class="col">
-                <button type="submit" class="btn button1">Buscar</button>
-            </div>
-        </div>
+  <div class="general-search">
+    <div class="row">
+      <div class="col">
+        <p class="title">Ingrese su comuna</p>
+      </div>
     </div>
+
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-10">
+        <input
+          class="input1"
+          type="text"
+          name="place"
+          ngModel
+          placeholder="Ingresar comuna"
+          required
+        />
+        <h4 *ngIf="!valid">Ingrese una comuna</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4"></div>
+      <div class="col">
+        <button type="submit" class="btn button1">Buscar</button>
+      </div>
+    </div>
+  </div>
 </form>
